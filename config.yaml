@@ -1,0 +1,43 @@
+schema_version: 3
+campaign:
+  name: "test-20261118-musvit-2"
+  title: "Blume und Duft musvit"
+  description: ""
+  instigator: "38179254"
+  repo_id: 1462878173
+  language: "en"
+  license: "CC-BY-4.0"
+automation:
+  central_repository: "lets-encode/lets-encode"
+  ref: "develop"
+  path: "scripts/coordinator.ts"
+source:
+  kind: "facsimile"
+  images:
+    - "sources/img/01.jpg"
+    - "sources/img/02.jpg"
+  header:
+    title: ""
+    composer: ""
+    publisher: ""
+    date: ""
+  rights_acknowledged: "1"
+pieces:
+  - id: "piece-01"
+    kind: "facsimile"
+    preparation: "omr-instruments"
+    path: "sources/piece-01/score.mei"
+    zones:
+      - { surface: 1, ulx: 0, uly: 0, lrx: 2745, lry: 3611 }
+      - { surface: 2, ulx: 0, uly: 0, lrx: 2745, lry: 3611 }
+    header:
+      title: ""
+      composer: ""
+fragmentation:
+  strategy: "by-piece"
+validation:
+  required_validations: 1
+  pass_threshold: 1
+locking:
+  stale_after_minutes: 1440
+  max_claims_per_person: 10
