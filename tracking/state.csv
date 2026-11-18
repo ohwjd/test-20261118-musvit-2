@@ -3,5 +3,5 @@ P0001,,completed,38179254,2026-11-18T14:12:31.795Z,
 P0001,S0001,completed,,,pass|297915765|2026-11-18T14:15:22.784Z
 T0001,,completed,297915765,2026-11-18T14:18:15.068Z,
 T0001,S0001,completed,,,pass|38179254|2026-11-18T14:21:14.142Z
-T0002,,encoding_required,,,
-T0002,S0001,pending,,,
+T0002,,validation_required,38179254,2026-11-18T14:24:37.869Z,
+T0002,S0001,validation_required,,,
